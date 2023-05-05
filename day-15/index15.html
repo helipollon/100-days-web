@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index15</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .nav-bar {
+        position: fixed;
+        width: 100%;
+        top: 0;
+      }
+      #header {
+        color: #19a7ce;
+        display: block;
+        background-color: #f6f1f1;
+        height: 75px;
+      }
+      #eu {
+        display: inline-block;
+        text-align: left;
+      }
+      .nav-list {
+        margin-right: 50px;
+
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .nav {
+        display: inline-block;
+        border: 5px solid #f6f1f1;
+        border-radius: 8px;
+        text-align: right;
+      }
+      .login:hover {
+        background-color: #f6f1f1;
+        border: 5px solid #6096b4;
+      }
+      .login:hover {
+        background-color: #f6f1f1;
+        border: 5px solid #6096b4;
+      }
+      a {
+        text-decoration: none;
+        text-align: right;
+      }
+      li {
+        text-decoration: none;
+        border: 5px solid #f6f1f1;
+        border-radius: 8px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
+
+      footer {
+        background-color: #f6f1f1;
+        color: #f6f1f1;
+        padding: 15px;
+      }
+
+      .col {
+        float: left;
+        padding: 15px 15px 15px 0;
+      }
+
+      .menu {
+        width: 25%;
+      }
+
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #afd3e2;
+        color: #fff;
+      }
+
+      .menu li:hover {
+        cursor: pointer;
+        background-color: #19a7ce;
+      }
+      .content {
+        width: 75%;
+      }
+      .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .end {
+        text-align: center;
+        padding: 5px;
+        width: 33.3%;
+        float: left;
+        border: 3px #fff;
+        background-color: #f6f1f1;
+      }
+      .inner-end {
+        background: #afd3e2;
+        padding: 25px 10px;
+        height: 200px;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="nav-bar">
+      <div id="header">
+        <h1 id="eu">EUNOIA</h1>
+        <div>
+          <ul class="nav-list">
+            <li class="nav"><a href="#" style="color: #19a7ce">About</a></li>
+            <li class="nav">
+              <a href="#" style="color: #19a7ce">Categories</a>
+            </li>
+            <li class="nav login">
+              <a href="#" style="color: #19a7ce">Log-in/Sign-up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="clearfix">
+      <div class="menu col">
+        <h4 style="text-align: center">Katagoriler</h4>
+        <ul>
+          <li>Bilim</li>
+          <li>Tarih</li>
+          <li>Felsefe</li>
+        </ul>
+      </div>
+      <div class="content col">
+        <h1>Akış</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+          commodi inventore saepe dicta fuga vitae iusto blanditiis omnis, in
+          quae consequuntur autem temporibus rem odit dolor aliquam enim beatae
+          tenetur.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium
+          sunt accusamus, veritatis ex iure quae explicabo eligendi atque enim
+          sit delectus, quod impedit animi inventore deserunt molestiae
+          recusandae possimus sint!
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container clearfix">
+        <div class="end">
+          <div class="inner-end">
+            <h3>Contact</h3>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+            ullam.
+          </div>
+        </div>
+        <div class="end">
+          <div class="inner-end">
+            <h3>About Us</h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, harum?
+          </div>
+        </div>
+        <div class="end">
+          <div class="inner-end">
+            <h3>Social Media</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+              est.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
