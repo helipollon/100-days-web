@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+#header {
+  color: #19a7ce;
+  display: block;
+  background-color: #f6f1f1;
+  height: 75px;
+}
+#eu {
+  display: inline-block;
+  text-align: left;
+}
+.nav-list {
+  margin-right: 50px;
+
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nav {
+  display: inline-block;
+  border: 5px solid #f6f1f1;
+  border-radius: 8px;
+  text-align: right;
+}
+.login:hover {
+  background-color: #f6f1f1;
+  border: 5px solid #6096b4;
+}
+.login:hover {
+  background-color: #f6f1f1;
+  border: 5px solid #6096b4;
+}
+a {
+  text-decoration: none;
+  text-align: right;
+}
+li {
+  text-decoration: none;
+  border: 5px solid #f6f1f1;
+  border-radius: 8px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+
+footer {
+  background-color: #f6f1f1;
+  color: #f6f1f1;
+  padding: 15px;
+}
+
+.col {
+  float: left;
+  padding: 15px 15px 15px 0;
+}
+
+.menu {
+  width: 25%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #afd3e2;
+  color: #fff;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: #19a7ce;
+}
+.content {
+  width: 75%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.end {
+  text-align: center;
+  padding: 5px;
+  width: 33.3%;
+  float: left;
+  border: 3px #fff;
+  background-color: #f6f1f1;
+}
+.inner-end {
+  background: #afd3e2;
+  padding: 25px 10px;
+  height: 200px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.end-c-row{margin-bottom: 40px;}
+.end-c-row::after{content: "";
+  display: block;
+  clear: both;}
+
+  .end-c-col3{width: 33.3%; float: left}
+
+  .end-c-card{   background-color: #afd3e2;
+    padding: 10px;
+    margin: 10px;
+   text-align: center;
+    color: #f6f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 40px rgba(52,58,64,0.1);
+    /* position: relative; */
+    /* top: 0; */
+    transition: all .3s;}
+    .end-c-card:hover {
+      /* top: -10px; */
+      transform: translateY(-10px);
+  }
