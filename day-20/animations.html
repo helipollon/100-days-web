@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index20</title>
+    <style>
+        body{
+            background-color: #333;
+            display: flex; /*ekranın tamamını kaplaması için*/
+            align-items: center; /*ekranın ortasına hizalar*/ 
+            justify-content: center; /*ekranın ortasına hizalar*/
+            height: 100vh;
+            color: #fff;}
+
+            .box{
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+                border-radius: 50%;
+                /*transition-property: background-color; /*geçiş özelliği*/
+                transition-duration: 1s; /*geçiş süresi*/
+                transition-timing-function: ease-in-out; /*tek tek yazılabilir*/
+                /*transition: background-color 1s ease-in-out;*/ /*tek satırda da yazılabilir*/
+                transition: all 1s ease-in-out; /*tüm özellikler için geçiş efekti*/
+            }
+
+            .box:hover{
+                background-color: aqua; /*arka plan rengini değiştirir*/
+                border-radius: 0; /*köşeleri düzleştirir*/
+                rotate: 45deg; /*45 derece döndürür*/
+                transform: scale(2); /*boyutu 2 katına çıkartır*/
+                /*transform: translateX(100px); /*x ekseninde 100px kaydırır*/
+                /*transform: translateY(100px); /*y ekseninde 100px kaydırır*/
+                transform: translate(100px, 100px); /*x ve y ekseninde 100px kaydırır*/
+                transform: rotateY(180deg); /*y ekseninde 180 derece döndürür*/
+            }
+
+    </style>
+</head>
+<body>
+
+    <div class="box"></div>
+    
+</body>
+</html>
