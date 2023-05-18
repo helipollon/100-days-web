@@ -116,5 +116,81 @@
             </div>
         </div>
     </main>
+    <style>
+			.card-section {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+
+				flex-wrap: wrap;
+				gap: 10px;
+				margin: 10px 10px;
+			}
+			.card {
+				flex: 1;
+				border: 1px solid black;
+				padding: 0 10px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			.card p {
+				overflow: hidden;
+				display: -webkit-box;
+				-webkit-line-clamp: 3; /* number of lines to show */
+				line-clamp: 3;
+				-webkit-box-orient: vertical;
+			}
+			.card img {
+			}
+		</style>
+
+		<div class="card-section">
+			<div class="card">
+				<img
+					src="https://images.unsplash.com/photo-1683464623235-d165004a9e75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+					alt=""
+				/>
+				<h4>Card Title</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Dignissimos odit, vel qui dolorum maiores minima,
+					consequatur itaque omnis, eos doloribus mollitia quam
+					tempora? Lorem ipsum dolor sit amet consectetur adipisicing
+					elit. Dignissimos odit, vel qui dolorum maiores minima,
+					consequatur itaque omnis, eos doloribus mollitia quam
+					tempora?
+				</p>
+				<button>Card Action</button>
+			</div>
+			<div class="card">
+				<img
+					src="https://images.unsplash.com/photo-1683464623235-d165004a9e75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+					alt=""
+				/>
+				<h4>Card Title</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Dignissimos odit, vel qui dolorum maiores minima,
+					consequatur itaque omnis, eos doloribus mollitia quam
+					tempora?
+				</p>
+				<button>Card Action</button>
+			</div>
+			<div class="card">
+				<img
+					src="https://images.unsplash.com/photo-1683464623235-d165004a9e75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+					alt=""
+				/>
+				<h4>Card Title</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Dignissimos odit, vel qui dolorum maiores minima,
+					consequatur itaque omnis, eos doloribus mollitia quam
+					tempora?
+				</p>
+				<button>Card Action</button>
+			</div>
+		</div> 
   </body>
 </html>
