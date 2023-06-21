@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+          background-color: #f1f1f1;
+          padding: 10px;
+          margin-bottom: 10px;
+        }
+    
+        textarea {
+          width: 100%;
+          height: 100px;
+          resize: none;
+          margin-bottom: 10px;
+        }
+      </style>
+</head>
+<body>
+    <div id="karts-container">
+      <!-- Varolan kartlar buraya eklenecek -->
+    </div>
+  
+    <div class="card">
+      <textarea id="text-area"></textarea>
+      <button onclick="ekleKart()">Kartı Ekle</button>
+    </div>
+  
+    <script>
+      function ekleKart() {
+        var metin = document.getElementById('text-area').value;
+  
+        if (metin !== '') {
+          var kartlarContainer = document.getElementById('karts-container');
+  
+          var yeniKart = document.createElement('div');
+          yeniKart.classList.add('card');
+          yeniKart.textContent = metin;
+  
+          kartlarContainer.appendChild(yeniKart);
+  
+          // Metin alanını temizleme
+          document.getElementById('text-area').value = '';
+        }
+      }
+    </script>
+  </body>
+  
+</html>
